@@ -18,8 +18,6 @@ export default function SnippetCreatePage() {
       },
     });
 
-    console.log(snippet);
-
     ///redirect back to root route ///
     redirect("/");
   }
