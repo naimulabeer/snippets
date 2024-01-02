@@ -36,7 +36,7 @@ export default function SnippetCreatePage() {
 
         {formState.message ? (
           <div className="my-2 p-2 text-red-600 font-bold">
-            ❌{formState.message}
+            ❌ {formState.message}
           </div>
         ) : (
           ""
